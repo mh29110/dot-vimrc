@@ -2,7 +2,6 @@ source ~/.vim/bundles.vim
 
 " encoding dectection
 set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
-
 " enable filetype dectection and ft specific plugin/indent
 filetype plugin indent on
 
@@ -14,7 +13,7 @@ syntax on
 "--------
 " color scheme
 set background=dark
-color solarized
+color desert
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -23,9 +22,10 @@ set cursorline cursorcolumn
 
 " search
 set incsearch
-"set highlight 	" conflict with highlight current line
+" set highlight        " conflict with highlight current line
 set ignorecase
 set smartcase
+set hlsearch
 
 " editor settings
 set history=1000
@@ -237,7 +237,7 @@ vmap <D-[> <gv
 vmap <D-]> >gv
 
 " eggcache vim
-nnoremap ; :
+" nnoremap ; :
 :command W w
 :command WQ wq
 :command Wq wq
