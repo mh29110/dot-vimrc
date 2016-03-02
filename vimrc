@@ -284,7 +284,7 @@ vmap <D-[> <gv
 vmap <D-]> >gv
 
 " eggcache vim
-" nnoremap ; :
+nnoremap ; :
 :command W w
 :command WQ wq
 :command Wq wq
